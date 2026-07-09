@@ -1,0 +1,12 @@
+﻿using FinanceService.Application.DTOs;
+using MediatR;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FinanceService.Application.Features.GetUserCurrencies
+{
+    public record GetUserCurrenciesQuery(int UserId) : IRequest<List<CurrencyDto>>;
+}

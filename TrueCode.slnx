@@ -1,0 +1,21 @@
+<Solution>
+  <Folder Name="/FinanceService/">
+    <Project Path="FinanceService.API/FinanceService.API.csproj" />
+    <Project Path="FinanceService.Application/FinanceService.Application.csproj" />
+    <Project Path="FinanceService.Domain/FinanceService.Domain.csproj" />
+    <Project Path="FinanceService.Infrastructure/FinanceService.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="FinanceService.UnitTests/FinanceService.UnitTests.csproj" />
+    <Project Path="UserService.UnitTests/UserService.UnitTests.csproj" />
+  </Folder>
+  <Folder Name="/UserService/">
+    <Project Path="UserService.API/UserService.API.csproj" />
+    <Project Path="UserService.Application/UserService.Application.csproj" />
+    <Project Path="UserService.Domain/UserService.Domain.csproj" />
+    <Project Path="UserService.Infrastructure/UserService.Infrastructure.csproj" />
+  </Folder>
+  <Project Path="ApiGateway/ApiGateway.csproj" />
+  <Project Path="CurrencySyncService/CurrencyUpdater.csproj" />
+  <Project Path="MigrationService/MigrationService.csproj" />
+</Solution>
